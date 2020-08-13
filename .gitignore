@@ -1,6 +1,6 @@
 # Directories
 node_modules
-build
+lib
 dist
 
 # Files

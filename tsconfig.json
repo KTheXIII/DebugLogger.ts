@@ -1,19 +1,10 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
-    "lib": ["ES2016", "DOM"],
-    "sourceMap": true,
-    "outDir": "./build/",
+    "outDir": "./dist/",
     "rootDir": "./",
-    "baseUrl": "./",
-    "removeComments": false,
-    "strict": false,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true
+    "baseUrl": "./"
   },
-  "include": ["src/**/*", "Test/scripts/**/*"],
+  "include": ["src/**/*", "test/scripts/**/*"],
   "exclude": ["node_modules"]
 }

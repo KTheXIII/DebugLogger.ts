@@ -2,11 +2,11 @@
   "name": "debuglogger-overlay",
   "version": "1.0.0",
   "description": "A crude fps overlay",
-  "main": "src/DebugLogger.js",
+  "main": "lib/DebugLogger.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --watch",
     "build": "tsc --p tsconfig.build.json",
-    "clean": "rimraf dist build *.log"
+    "clean": "rimraf lib dist *.log"
   },
   "author": "KTheXIII <24420859+KTheXIII@users.noreply.github.com>",
   "license": "MIT",
